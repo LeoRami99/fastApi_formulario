@@ -10,21 +10,21 @@ def read_root():
     return {"Hello": "World"}
 # Create model for post
 class Formulario(BaseModel):
-    aspiracion: str
-    cargo_asp: str
-    actividad_mil: str
-    tipo_doc: str
-    num_doc: str
-    fecha_exp: str
-    ciudad_exp: str
-    nombres: str
-    apellidos: str
-    genero: str
-    fecha_nacimiento: str
-    estudios: str
-    oficio: str
-    tip_poblacion: str
-    num_celular: str
+    aspiracion:str
+    cargo_asp:str
+    actividad_mil:str
+    tipo_doc:str
+    num_doc:str
+    fecha_exp:str
+    ciudad_exp:str
+    nombres:str
+    apellidos:str
+    genero:str
+    fecha_nacimiento:str
+    estudios:str
+    oficio:str
+    tip_poblacion:str
+    num_celular:str
     correo:str
     pais:str
     departamento: str
